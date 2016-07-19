@@ -1,0 +1,150 @@
+body {
+	background-image: url("../img/sombrero2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Vollkorn', serif;
+}
+#logoMenuOnirian{
+	max-width:140px;
+	margin-top: -16px;
+}
+.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+		width: 100%;
+		margin: auto;
+}
+.dropdown-menu{
+	background-color:#333;
+}
+.dropdown-menu>li>a{
+	color:#9d9d9d;
+	font-size:140%;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #333;
+}
+#cuerpo{
+	background-color:rgba(51,51,51,0.8);
+	color:#D8D8D8;
+	font-size:150%;
+	border: 1px solid rgb(119, 119, 119);
+}
+#cuerpoInit{
+	padding: 5%;
+}
+h1{
+	color:#FFFFFF;
+	font-size:140%
+}
+h1:before { 
+		display: block; 
+		content: " "; 
+		margin-top: -60px; 
+		height: 60px; 
+		visibility: hidden; 
+	}
+h2{
+	color:#FFFFFF;
+}
+h3{
+	color:#FFFFFF;
+}
+h4{
+	color:#FFFFFF;
+}
+
+#noticias #fecha{
+	color:#9d9d9d;
+	font-size:70%;
+}
+#noticias p{
+	font-size:85%;
+	text-align: justify;
+	text-indent: 10%;
+}
+	/* unvisited link */
+#cuerpo a:link{
+	color:#D8D8D8;
+	text-decoration: none;
+}
+	/* visited link */
+#cuerpo a:visited {
+	color:#D8D8D8;
+	text-decoration: none;
+}
+	/* mouse over link */
+#cuerpo a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+	/* selected link */
+#cuerpo a:active {
+	color:#9D9D9D;
+	text-decoration: none;
+}
+#cuerpo ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#widgetsOnirian{
+    border-left: 2px solid rgba(112,112,112,0.8);
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+	text-align:center;
+}
+#soundcloudOnirian{
+	overflow: hidden;
+	margin:auto;
+}
+#twitterOnirian{
+	overflow: hidden;
+	margin:auto;
+	width:93%;
+}
+.botonOnirianFoto{
+	background:none;
+	border-style:none;
+}
+.socialOnirian{
+	font-size:90%;
+	margin:auto;
+	width:80%;
+	text-align:left!important;
+}
+@media only screen and (max-width: 992px) {
+    #widgetsOnirian {
+        border-left:none;
+    }
+}
+@media only screen and (max-width: 768px) {
+	#cuerpo{
+		padding-top: 10%;
+	}
+	#navBarLogo2{
+		display:none;
+	}
+}
+@media (min-width: 769px) {
+	#navBarLogo1{
+		display:none;
+	}
+	.navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar-nav > li {
+		font-size:140%;
+		float: none;
+		display: inline-block;
+	}
+	.navbar-nav > li.navbar-right {
+		float: right !important;
+	}
+}

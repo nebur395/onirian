@@ -1,0 +1,17 @@
+## generic files to ignore
+*~
+
+.ensime*
+*.sublime-*
+.cache
+
+# intellij
+*.eml
+*.iml
+*.ipr
+*.iws
+.*.sw?
+.idea
+
+# paulp script
+/.lib/
